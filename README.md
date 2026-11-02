@@ -123,6 +123,7 @@ mohakgupta1411-musical-instrument-recognition-using-dsp-and-ml/
 │
 ├── notebooks/
 │   ├── Musical_Instrument_Recognition.ipynb
+│   ├── Final_Project_Demonstration.ipynb
 │   └── README.md
 │
 └── results/
@@ -158,7 +159,9 @@ Launch Jupyter Notebook:
 jupyter notebook
 ```
 
-Open `Musical_Instrument_Recognition.ipynb` from the `notebooks/` directory.
+Open `Musical_Instrument_Recognition.ipynb` from the `notebooks/` directory to explore the complete workflow.
+
+For a quick demonstration of the trained models, open `Final_Project_Demonstration.ipynb`.
 
 ## Requirements
 
@@ -180,6 +183,8 @@ Refer to [`requirements.txt`](requirements.txt) for the package list.
 - [Project Presentation](docs/Project%20Presentation.pdf)
 - [Project Report with Attached Base Paper](docs/Project%20Report%20with%20attached%20base%20paper.pdf)
 - [Project Synopsis](docs/Project%20Synopsis.pdf)
+- [Complete Project Notebook](notebooks/Musical_Instrument_Recognition.ipynb)
+- [Interactive Project Demonstration](notebooks/Final_Project_Demonstration.ipynb)
 - [Notebook Documentation](notebooks/README.md)
 - [Model Details](models/README.md)
 - [Dataset Details](data/README.md)
