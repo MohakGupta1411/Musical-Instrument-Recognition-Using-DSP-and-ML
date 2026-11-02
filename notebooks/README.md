@@ -1,18 +1,22 @@
-# Jupyter Notebook
+# Jupyter Notebooks
 
-This directory contains the Jupyter Notebook used for the **Musical Instrument Recognition Using DSP and Machine Learning** project.
+This directory contains the Jupyter Notebooks used for the **Musical Instrument Recognition Using DSP and Machine Learning** project. The notebooks cover the complete experimental workflow as well as a demonstration of the trained models on audio recordings.
 
-## Notebook
+## Notebooks
+
+### 1. Complete Project Workflow
 
 `Musical_Instrument_Recognition.ipynb`
 
-## Overview
+Implements the audio preprocessing, feature extraction, CNN-based classification, model evaluation, and prediction pipeline using the IRMAS dataset.
 
-The notebook implements the audio preprocessing, feature extraction, CNN-based classification, model evaluation, and prediction pipeline for musical instrument recognition using the IRMAS dataset.
+### 2. Final Project Demonstration
 
-## Workflow
+`Final_Project_Demonstration.ipynb`
 
-The notebook covers the following stages:
+A short demonstration notebook showing the trained models in action on an audio recording. It includes predominant instrument prediction, multilabel instrument predictions, confidence scores, comparison with ground-truth labels, and window-wise predictions for longer audio.
+
+## Workflow — Complete Project Notebook
 
 ### 1. Audio Preprocessing
 
@@ -45,13 +49,14 @@ The models can identify the presence of multiple instruments in a recording and 
 
 ## Input Data
 
-The notebook uses:
+The notebooks use:
 
 - Original IRMAS audio recordings.
 - Processed NumPy feature and label arrays.
 - Trained CNN models.
+- Audio recordings for demonstration and prediction.
 
-Refer to the [`data/README.md`](../data/README.md) for dataset download links and instructions.
+Refer to [`data/README.md`](../data/README.md) for dataset download links and instructions.
 
 ## Trained Models
 
@@ -62,7 +67,7 @@ The trained models are available in the [`models/`](../models/) directory.
 
 ## Requirements
 
-The notebook uses Python and the following libraries:
+The notebooks use Python and the following libraries:
 
 - NumPy
 - Pandas
@@ -71,20 +76,20 @@ The notebook uses Python and the following libraries:
 - Scikit-learn
 - TensorFlow / Keras
 
-Install the required libraries using:
+Install the required libraries from the repository root:
 
 ```bash
-pip install -r ../requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Execution
 
-1. Download the required original and processed datasets.
-2. Download or use the trained models provided in the repository.
-3. Update the dataset and model paths in the notebook according to your local directory.
+1. Clone or download the repository.
+2. Download the required original and processed datasets.
+3. Use the trained models provided in the `models/` directory.
 4. Install the required Python libraries.
 5. Open the notebook using Jupyter Notebook or JupyterLab.
-6. Execute the cells in the appropriate order.
+6. Update dataset, audio, and model paths according to your local directory.
+7. Execute the cells in the appropriate order.
 
-**Note:** The notebook contains local file paths from the development environment. These paths must be updated before running the notebook on another system.
-
+**Note:** The notebooks may contain local file paths from the development environment. These paths must be updated before running the notebooks on another system.
